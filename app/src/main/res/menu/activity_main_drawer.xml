@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/prfile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_add_car"
+            android:icon="@drawable/car"
+            android:title="@string/add_Car" />
+        <item
+            android:id="@+id/nav_autoShow"
+            android:icon="@drawable/cars_market"
+            android:title="@string/cars_market" />
+        <item
+            android:id="@+id/nav_autoNews"
+            android:icon="@drawable/cars_market"
+            android:title="@string/autoNews" />
+
+        <item
+            android:id="@+id/nav_partBrands"
+            android:icon="@drawable/cars_market"
+            android:title="@string/partBrands" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="@string/chatters" />
+
+        <item
+            android:id="@+id/nav_changePass"
+            android:icon="@drawable/setting"
+            android:title="@string/change_Pass" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/privacy"
+            android:title="@string/policy" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/out"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

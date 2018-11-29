@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/colorPrimaryDark"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/new_title_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/model"
+                    android:textColor="@color/gray_color"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/new_car_model_txt_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/gray_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/car_price"
+                    android:textColor="@color/gray_color"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/new_car_price_txt_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/gray_color" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/modal"-->
+            <!--android:textColor="@color/gray_color"-->
+            <!--android:textSize="16sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/new_car_model_txt_id"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="4dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/phone"-->
+            <!--android:textColor="@color/gray_color" />-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/new_img_item_id"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/placeholder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/edit_ads_btn_id"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:background="@drawable/rectangl"
+            android:text="@string/edit"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/delete_ads_btn_id"
+            android:layout_width="90dp"
+            android:layout_height="37dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/rectangl"
+            android:text="@string/delete"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

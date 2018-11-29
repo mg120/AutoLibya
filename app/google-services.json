@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "688310406796",
+    "firebase_url": "https://autolibya-a9e46.firebaseio.com",
+    "project_id": "autolibya-a9e46",
+    "storage_bucket": "autolibya-a9e46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688310406796:android:42a17c0a7207d6e6",
+        "android_client_info": {
+          "package_name": "com.autoliba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688310406796-n5velc8thth5jqb19neort9qdqomdvbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autoliba",
+            "certificate_hash": "5b44fbc7ec3b8e192fecfd6c1a92b141e51945ec"
+          }
+        },
+        {
+          "client_id": "688310406796-4925flf9hq30ku38nm4pacfeiilu8q7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autoliba",
+            "certificate_hash": "be87ffc17c30c02451e6bcdf8fa52fc049591189"
+          }
+        },
+        {
+          "client_id": "688310406796-frvrntbm0cul7bgjr128hvfc36iva1ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5sJOfZ3kUtStb0x4gy-lQCe9T1eAy3-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688310406796-frvrntbm0cul7bgjr128hvfc36iva1ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
